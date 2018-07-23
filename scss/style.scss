@@ -7,6 +7,17 @@
     @include box-sizing(border-box);
 }
 
+body {
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: $linkColor;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $linkColor;
+        border: 2px solid $linkColor;
+    }
+}
+
 div,
 p,
 span,
@@ -159,6 +170,7 @@ header {
         @include box-shadow(0 0 10px rgba(0, 0, 0, .2));
         margin: 10px;
         padding: 15px;
+        min-height: 37vh;
     }
 }
 
@@ -167,7 +179,9 @@ header {
 
 footer {
     padding: 10px;
-    @include box-shadow(0 -3px 4px rgba(0, 0, 0, 0.1));
+    @include box-shadow(0 0 10px rgba(0, 0, 0, .2));
+    position: sticky;
+    bottom: 0;
 }
 
 .social-icons {
