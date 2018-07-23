@@ -1,0 +1,17 @@
+//Breakpoints
+$breakpoints: ( "phone": 400px, "phone-wide": 480px, "phablet": 560px, "tablet-small": 640px, "tablet": 768px, "tablet-wide": 1024px, "desktop": 1248px, "desktop-wide": 1440px);
+//Font Family
+$f-stack-robo: 'Roboto',
+sans-serif;
+//Font Size
+$f-base: 12px;
+///Color
+$white: #fff;
+$black: #000;
+$textColor: #212121;
+$logoColor: #ec4924;
+$linkColor: #ec4924;
+$linkHoverColor: darken($linkColor, 10%);
+$fbColor: #3B5998;
+$twitterColor: #1DA1F2;
+$linkedinColor: #0077B5;

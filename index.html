@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Js Assignment</title>
+    <meta name="description" content="Pure Javascript Assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="body-wrapper">
+        <div class="home-wrapper">
+            <div class="container-wrapper">
+                <header>
+                    <div class="container">
+                        <div class="flex-container">
+                            <div class="flex-item">
+                                <a href="#" class="logo">
+                                    <i class="icon-incedo"></i>
+                                </a>
+                            </div>
+                            <div class="flex-item menu-container">
+                                <i class="icon-menu visible-phone" onclick="openMenu(this)"></i>
+                                <nav class="hidden-phone" id="menu">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section class="content">
+                    <div class="container">
+                        <div class="content-card">
+                            <ul class="flex-container">
+                                <li class="flex-item">
+                                    <div class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        <div id="card1" class="dragable">
+                                            <p>Sawan Nirala</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="flex-item">
+                                    <div class="card-container">
+                                        <div id="card2" class="dragable" draggable="true" ondragstart="drag(event)">
+                                            <p>Sawan Kumar Nirala</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="flex-item">
+                                    <div class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                        <div id="card3" class="dragable">
+                                            <p>Sawan Kumar</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="flex-item">
+                                    <div class="card-container">
+                                        <div id="card4" class="dragable" draggable="true" ondragstart="drag(event)">
+                                            <p>Sawan</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class="flex-container">
+                            <div class="flex-item">
+                                <div class="copyrights">
+                                    <p>&copy; All rights reserved <a href="#">incedo</a></p>
+                                </div>
+                            </div>
+                            <div class="flex-item">
+                                <div class="social-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js" async defer></script>
+</body>
+
+</html>
