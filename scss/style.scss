@@ -171,6 +171,10 @@ header {
         margin: 10px;
         padding: 15px;
         min-height: 37vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
